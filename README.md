@@ -186,21 +186,21 @@ Alignments set the content structure within the grid layout
 ```
 
 ## Padding, Display and Border
-Padding and border sizes
-0 - 0px
-1 - 0.25px
-2 - 0.5px
-3 - 1px
-4 - 1.5px
-5 - 3px
+Padding and border sizes<br/>
+0 - 0px<br/>
+1 - 0.25px<br/>
+2 - 0.5px<br/>
+3 - 1px<br/>
+4 - 1.5px<br/>
+5 - 3px<br/>
 
-t - margin-top or padding-top
-b - margin-bottom or padding-bottom
-l - margin-left or padding-left
-r - margin-right or padding-right
-x - left and right
-y - top and bottom
-blank - all way around
+t - margin-top or padding-top<br/>
+b - margin-bottom or padding-bottom<br/>
+l - margin-left or padding-left<br/>
+r - margin-right or padding-right<br/>
+x - left and right<br/>
+y - top and bottom<br/>
+blank - all way around<br/>
 
 ```
 <div class="container" style="margin-top: 20px;">
