@@ -232,5 +232,43 @@ blank - all way around<br/>
 </div>
 ```
 
+## Flexible Box
+The flex layout allows responsive elements within a container to be automatically arranged depending upon screen size.
+
+```
+<aside class="container" style="margin-top: 20px;">
+    <section class="d-flex flex-row">
+        <div class="p-4">One</div>
+        <div class="p-4">Two</div>
+        <div class="p-4">Three</div>
+        <div class="p-4">Four</div>
+    </section>
+    <section class="d-flex flex-row-reverse">
+        <div class="p-4">One</div>
+        <div class="p-4">Two</div>
+        <div class="p-4">Three</div>
+        <div class="p-4">Four</div>
+    </section>
+    <section class="d-flex flex-row justify-content-center">
+        <div class="p-4">One</div>
+        <div class="p-4">Two</div>
+        <div class="p-4">Three</div>
+        <div class="p-4">Four</div>
+    </section>
+    <section class="d-flex flex-column">
+        <div class="p-4">One</div>
+        <div class="p-4">Two</div>
+        <div class="p-4">Three</div>
+        <div class="p-4">Four</div>
+    </section>
+    <section class="d-flex flex-row align-items-start">
+        <div class="p-4">One</div>
+        <div class="p-4">Two</div>
+        <div class="p-4">Three</div>
+        <div class="p-4">Four</div>
+    </section>
+</aside>
+```
+
 
 
