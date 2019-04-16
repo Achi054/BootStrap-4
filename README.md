@@ -1,23 +1,28 @@
 # Bootstrap-4
+
 Web app using Bootstrap 4
 
 Bootstrap is a front-end component library to design and develop web applications.
 
 ## Setting up Bootstrap
+
 - Getting started through CDN
-    - Goto [getbootstrap.com](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-    - Copy the startup template to you code editor
+  - Goto [getbootstrap.com](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+  - Copy the startup template to you code editor
 - Other ways to install bootstrap are defined in [getbootstrap.com](https://getbootstrap.com/docs/4.3/getting-started/download/)
 
 ## Graphic design and responsive layout
+
 4 principals of graphic desing<br/>
+
 - Contrast
-- Alignment 
+- Alignment
 - Repitition
 - Proximity
-<br/>Also know as <b>CARP</b>
+  <br/>Also know as <b>CARP</b>
 
 ## Bootstrap color names
+
 - Primary - Blue
 - Secondary - Grey
 - Success - Green
@@ -37,9 +42,11 @@ Bootstrap is a front-end component library to design and develop web application
 ```
 
 ## Bootstrap containers
+
 Create sections with the <b>container</b> and render smooth responsiveness with <b>container-fluid</b>.
 
 Compose table structure with <b>row</b> and <b>col</b> key words.
+
 ```
 <div class="container">
         <div class="row">
@@ -55,6 +62,7 @@ Compose table structure with <b>row</b> and <b>col</b> key words.
 ```
 
 ## Media Break-points
+
 - XL - 1200px
 - LG - 992px
 - MD - 768px
@@ -76,6 +84,7 @@ Compose table structure with <b>row</b> and <b>col</b> key words.
 ```
 
 ## Bootstrap grid system
+
 The common grid layout in bootstrap is 12 column grid layout
 
 ```
@@ -142,6 +151,7 @@ The common grid layout in bootstrap is 12 column grid layout
 ```
 
 ## Alignments and Offsets
+
 Alignments set the content structure within the grid layout
 
 ```
@@ -186,6 +196,7 @@ Alignments set the content structure within the grid layout
 ```
 
 ## Padding, Display and Border
+
 Padding and border sizes<br/>
 0 - 0px<br/>
 1 - 0.25px<br/>
@@ -233,6 +244,7 @@ blank - all way around<br/>
 ```
 
 ## Flexible Box
+
 The flex layout allows responsive elements within a container to be automatically arranged depending upon screen size.
 
 ```
@@ -270,5 +282,106 @@ The flex layout allows responsive elements within a container to be automaticall
 </aside>
 ```
 
+## Navigation
 
+Navigation bar can be created by using the below code snippet
 
+```
+<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+					<a class="navbar-brand" href="#">Navbar</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarNav"
+					>
+						<ul class="navbar-nav">
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									role="button"
+									data-toggle="dropdown"
+									href="#"
+									>Dropdown</a
+								>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Sub-link 1</a>
+									<a class="dropdown-item" href="#">Sub-link 2</a>
+									<a class="dropdown-item" href="#">Sub-link 3</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Sub-link 4</a>
+									<a class="dropdown-item" href="#">Sub-link 5</a>
+									<a class="dropdown-item" href="#">Sub-link 6</a>
+								</div>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="#"
+									>Home <span class="sr-only">(current)</span></a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Pricing</a>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link disabled"
+									href="#"
+									tabindex="-1"
+									aria-disabled="true"
+									>Disabled</a
+								>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+```
+
+Navigation bar is created with individual tiles using `nav-pills`. If we need to create as tabs use `nav-tabs`.
+
+```
+<div class="container m-5">
+    <ul class="nav nav-tabs nav-justified">
+        <li class="nav-item dropdown">
+            <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-toggle="dropdown"
+                href="#"
+                >Menu Dropdown</a
+            >
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Sub-link 1</a>
+                <a class="dropdown-item" href="#">Sub-link 2</a>
+                <a class="dropdown-item" href="#">Sub-link 3</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Menu Item 1</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Menu Item 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Menu Item 3</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Menu Item 4</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Menu Item 5</a></li>
+    </ul>
+</div>
+```
+
+Navigation coloring is done using `navbar-<bootstrap-fillers>` and `bg-<bootstap-colors>`
+
+```
+<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+```
