@@ -385,3 +385,42 @@ Navigation coloring is done using `navbar-<bootstrap-fillers>` and `bg-<bootstap
 ```
 <nav class="navbar navbar-expand-lg navbar-dark bg-info">
 ```
+
+## Breadcrumb
+
+Breadcrum composition is done using `breadcrumb` and `breadcrum-item` class
+
+```
+<div class="container m-5">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Book</a></li>
+					<li class="breadcrumb-item"><a href="#">GOT</a></li>
+					<li class="breadcrumb-item"><a href="#">Chapter 1</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Page</li>
+				</ol>
+			</nav>
+		</div>
+```
+
+## Pagination
+
+Pagination is composed using `pagination`, `page-item` and `page-link` class
+
+```
+<div class="container m-5">
+			<nav aria-label="pagination">
+				<ol class="pagination">
+					<li class="page-item">
+						<a href="#" class="page-link"><span>&laquo</span></a>
+					</li>
+					<li class="page-item active"><a href="#" class="page-link">1</a></li>
+					<li class="page-item"><a href="#" class="page-link">2</a></li>
+					<li class="page-item"><a href="#" class="page-link">3</a></li>
+					<li class="page-item">
+						<a href="#" class="page-link"><span>&raquo</span></a>
+					</li>
+				</ol>
+			</nav>
+		</div>
+```
