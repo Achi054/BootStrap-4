@@ -424,3 +424,51 @@ Pagination is composed using `pagination`, `page-item` and `page-link` class
 			</nav>
 		</div>
 ```
+
+## Typography
+
+Typography can be composed through `h1 to h6, display-1 to display-4` classes
+
+```
+<div class="container m-5">
+        <span class="h1 text-muted">h1 - With text muted</span><br />
+        <span class="h1 text-capitalize">h1 - With text muted</span><br />
+        <span class="h1 text-lowercase">h1 - With text muted</span><br />
+        <span class="h1 text-uppercase">h1 - With text muted</span><br />
+        <span class="display-1">display 1 - This is h1 tag</span><br />
+        <span class="display-1">display 1 - This is h1 tag</span><br />
+        <span class="display-1">display 1 - This is h1 tag</span><br />
+        <span class="display-2">display 2 - This is h1 tag</span><br />
+        <span class="display-3">display 3 - This is h1 tag</span><br />
+        <span class="display-4">display 4 - This is h1 tag</span><br />
+        <span class="h1">h1 - This is h1 tag</span><br />
+        <span class="h2">h2 - This is h2 tag</span><br />
+        <span class="h3">h3 - This is h3 tag</span><br />
+        <span class="h4">h4 - This is h4 tag</span><br />
+        <span class="h5">h5 - This is h5 tag</span><br />
+        <span class="h6">h6 - This is h6 tag</span>
+    </div>
+```
+
+Text Coloring can be composed using `text-primary, text-secondary, text-success, text-danger, text-warning, text-info, text-dark, text-body, text-black-50, text-light, text-white-50 and text-white` classes
+
+```
+<div class="container">
+    <div>
+        <span class="text-primary">Color primary</span><br />
+        <span class="text-secondary">Color secondary</span><br />
+        <span class="text-success">Color success</span><br />
+        <span class="text-danger">Color danger</span><br />
+        <span class="text-warning">Color warning</span><br />
+        <span class="text-info">Color info</span><br />
+        <span class="text-dark">Color dark</span><br />
+        <span class="text-body">Color body</span><br />
+        <span class="text-black-50">Color black</span><br />
+    </div>
+    <div class="mt-5 bg-dark w-25">
+        <span class="text-light">Color light</span><br />
+        <span class="text-white-50">Color white 50</span><br />
+        <span class="text-white">Color white</span>
+    </div>
+</div>
+```
